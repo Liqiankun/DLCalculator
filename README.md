@@ -1,2 +1,2 @@
 # DLCalculator
-Calculator by Swift3
+![](https://github.com/Liqiankun/DLCalculator/raw/master/DLCalculator.png)
