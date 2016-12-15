@@ -14,6 +14,8 @@
 		AA9117C91DFBF53B00125FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9117C71DFBF53B00125FBC /* LaunchScreen.storyboard */; };
 		AA9117D41DFBF53B00125FBC /* DLCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9117D31DFBF53B00125FBC /* DLCalculatorTests.swift */; };
 		AA9117DF1DFBF53B00125FBC /* DLCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9117DE1DFBF53B00125FBC /* DLCalculatorUITests.swift */; };
+		AACFA1101E00DA8D00DB4B29 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = AACFA10F1E00DA8D00DB4B29 /* btn.wav */; };
+		AACFA1181E023A6400DB4B29 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AACFA1171E023A6400DB4B29 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AA9117DA1DFBF53B00125FBC /* DLCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9117DE1DFBF53B00125FBC /* DLCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLCalculatorUITests.swift; sourceTree = "<group>"; };
 		AA9117E01DFBF53B00125FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACFA10F1E00DA8D00DB4B29 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		AACFA1171E023A6400DB4B29 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		AA9117BD1DFBF53B00125FBC /* DLCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				AACFA1171E023A6400DB4B29 /* Minecraft.ttf */,
+				AACFA10F1E00DA8D00DB4B29 /* btn.wav */,
 				AA9117BE1DFBF53B00125FBC /* AppDelegate.swift */,
 				AA9117C01DFBF53B00125FBC /* ViewController.swift */,
 				AA9117C21DFBF53B00125FBC /* Main.storyboard */,
@@ -237,7 +243,9 @@
 			files = (
 				AA9117C91DFBF53B00125FBC /* LaunchScreen.storyboard in Resources */,
 				AA9117C61DFBF53B00125FBC /* Assets.xcassets in Resources */,
+				AACFA1181E023A6400DB4B29 /* Minecraft.ttf in Resources */,
 				AA9117C41DFBF53B00125FBC /* Main.storyboard in Resources */,
+				AACFA1101E00DA8D00DB4B29 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +520,7 @@
 				AA9117E51DFBF53B00125FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9117E61DFBF53B00125FBC /* Build configuration list for PBXNativeTarget "DLCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				AA9117E81DFBF53B00125FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9117E91DFBF53B00125FBC /* Build configuration list for PBXNativeTarget "DLCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				AA9117EB1DFBF53B00125FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
